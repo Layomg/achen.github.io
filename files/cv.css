@@ -63,7 +63,7 @@
 **********/
 	header[role=banner] {
 		background:#fff;
-		border-bottom:4px solid #33a4c9;
+		border-bottom:4px solid #a3e4d7;
 		padding: 19px 0;
 		overflow: hidden;
 	}
@@ -168,39 +168,6 @@
 		display: none !important;
 	}
 
-	/***********************
-	/* Message du formulaire
-	***********************/
-		.messageform { 
-			display: none; /* Affiché via jQuery */ 
-			border-radius: 2px; 
-			font-size: 14px;
-			font-weight: bold;
-			line-height: 17px;
-			padding:10px 10px 9px 10px; 
-			margin: 0;
-			text-align: center;
-			width: 100%; 
-		}
-		.envoi-valid, .envoi-error { 
-			display: inline-block; 
-		 }
-		.envoi-valid { 
-			background-color: #31D869;
-			border:1px solid #108D3A; 
-			color: #108D3A;
-		}
-		.envoi-error { 
-			background-color: #FF5839;
-			border:1px solid #A62913; 
-			color: #A62913;
-		}
-		.envoi-error a {
-			color: #A62913;
-			text-decoration: underline;
-		}
-		
-
 /***************
 /* Corps - Main
 ***************/
@@ -223,15 +190,15 @@
 	section[role=main] h3:after, h3:before {
 		content: ' ';
 		display: block;
-		height: 50px;
+		height: 30px;
 		left: 0;
 		position: absolute;
-		top: -15px;
+		top: -5px;
 		width: 50px;
 	}
 	
 	section[role=main] h3:before {
-		background-color: #33a4c9;
+		background-color: #a3e4d7;
 		border-radius: 25px;
 	}
 	
